@@ -49,7 +49,7 @@ const NavItem = ({ item }) => {
             <ul className="bg-dark-soft lg:bg-transparent text-center flex flex-col shadow-lg rounded-lg overflow-hidden">
               {item.items.map((page, index) => (
                 <a
-                key={index}
+                  key={index}
                   href="/"
                   className="hover:bg-dark-hard hover:text-white px-4 py-2 text-white lg:text-dark-soft"
                 >

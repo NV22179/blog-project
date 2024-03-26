@@ -1,8 +1,8 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from "react-router-dom";
 
-import './App.css';
-import HomePage from './pages/home/HomePage';
-import ArticleDetailPage from './pages/articleDetail/ArticleDetailPage';
+import "./App.css";
+import ArticleDetailPage from "./pages/articleDetail/ArticleDetailPage";
+import HomePage from "./pages/home/HomePage";
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
         <Route index path="/" element={<HomePage />} />
         <Route path="/blog/:id" element={<ArticleDetailPage />} />
       </Routes>
-
     </div>
   );
 }
